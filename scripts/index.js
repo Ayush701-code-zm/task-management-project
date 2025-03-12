@@ -59,7 +59,7 @@ const htmlModalContent = ({ id, title, description, url }) => {
         <img width='100%' src=${url} alt='card image cap' class='img-fluid place__holder__image mb-3' />
       `
         : `
-      <img width='100%' src="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" alt='card image cap' class='img-fluid place__holder__image mb-3' />
+      <img width='101%' src="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" alt='card image cap' class='img-fluid place__holder__image mb-3' />
       `
     }
     <strong class='text-sm text-muted'>Created on ${date.toDateString()}</strong>
